@@ -37,10 +37,8 @@ return [
                 0 => 'GET',
                 1 => 'POST',
             ],
-            'collection_query_whitelist' => [
-                0 => 'size',
-            ],
-            'page_size' => '5',
+            'collection_query_whitelist' => [],
+            'page_size' => '2',
             'page_size_param' => 'size',
             'entity_class' => \Category\V1\Rest\Categories\CategoriesEntity::class,
             'collection_class' => \Category\V1\Rest\Categories\CategoriesCollection::class,
@@ -49,7 +47,7 @@ return [
     ],
     'api-tools-content-negotiation' => [
         'controllers' => [
-            'Category\\V1\\Rest\\Categories\\Controller' => 'Json',
+            'Category\\V1\\Rest\\Categories\\Controller' => 'HalJson',
         ],
         'accept_whitelist' => [
             'Category\\V1\\Rest\\Categories\\Controller' => [
