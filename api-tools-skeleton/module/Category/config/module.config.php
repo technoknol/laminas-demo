@@ -37,7 +37,9 @@ return [
                 0 => 'GET',
                 1 => 'POST',
             ],
-            'collection_query_whitelist' => [],
+            'collection_query_whitelist' => [
+                0 => 'size',
+            ],
             'page_size' => '5',
             'page_size_param' => 'size',
             'entity_class' => \Category\V1\Rest\Categories\CategoriesEntity::class,
@@ -51,15 +53,12 @@ return [
         ],
         'accept_whitelist' => [
             'Category\\V1\\Rest\\Categories\\Controller' => [
-                0 => 'application/vnd.category.v1+json',
-                1 => 'application/hal+json',
-                2 => 'application/json',
+                0 => 'application/json',
             ],
         ],
         'content_type_whitelist' => [
             'Category\\V1\\Rest\\Categories\\Controller' => [
-                0 => 'application/vnd.category.v1+json',
-                1 => 'application/json',
+                0 => 'application/json',
             ],
         ],
     ],
