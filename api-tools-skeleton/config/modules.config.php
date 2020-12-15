@@ -26,4 +26,5 @@ return [
     'Laminas\\ApiTools\\Rpc',
     'Laminas\\ApiTools\\Versioning',
     'Application',
+    'Category',
 ];

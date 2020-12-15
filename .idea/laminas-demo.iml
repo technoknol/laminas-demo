@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/api-tools-skeleton/module/Application/src" isTestSource="false" packagePrefix="Application\" />
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/api-tools-skeleton/module/Application/test" isTestSource="true" packagePrefix="ApplicationTest\" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/bshaffer/oauth2-server-php" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/container-interop/container-interop" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/herrera-io/json" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/herrera-io/phar-update" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/justinrainbow/json-schema" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/kherge/version" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas-api-tools/api-tools" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas-api-tools/api-tools-admin" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas-api-tools/api-tools-admin-ui" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas-api-tools/api-tools-api-problem" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas-api-tools/api-tools-asset-manager" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas-api-tools/api-tools-configuration" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas-api-tools/api-tools-content-negotiation" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas-api-tools/api-tools-content-validation" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas-api-tools/api-tools-documentation" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas-api-tools/api-tools-hal" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas-api-tools/api-tools-mvc-auth" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas-api-tools/api-tools-oauth2" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas-api-tools/api-tools-provider" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas-api-tools/api-tools-rest" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas-api-tools/api-tools-rpc" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas-api-tools/api-tools-versioning" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas/laminas-authentication" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas/laminas-code" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas/laminas-component-installer" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas/laminas-composer-autoloading" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas/laminas-config" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas/laminas-console" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas/laminas-crypt" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas/laminas-db" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas/laminas-developer-tools" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas/laminas-development-mode" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas/laminas-dom" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas/laminas-escaper" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas/laminas-eventmanager" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas/laminas-filter" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas/laminas-http" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas/laminas-hydrator" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas/laminas-inputfilter" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas/laminas-json" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas/laminas-loader" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas/laminas-math" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas/laminas-modulemanager" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas/laminas-mvc" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas/laminas-paginator" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas/laminas-permissions-acl" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas/laminas-permissions-rbac" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas/laminas-router" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas/laminas-servicemanager" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas/laminas-stdlib" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas/laminas-test" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas/laminas-uri" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas/laminas-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas/laminas-view" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/laminas/laminas-zendframework-bridge" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/michelf/php-markdown" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/paragonie/random_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/phpdocumentor/reflection-common" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/phpdocumentor/reflection-docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/phpspec/prophecy" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/phpunit/php-token-stream" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/psr/link" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/sebastian/resource-operations" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/sebastian/type" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/seld/jsonlint" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/webimpress/safe-writer" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/zfcampus/zf-console" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/zfcampus/zf-deploy" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
