@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="179c7368-2d56-4636-ae4a-80cba28d0c8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api-tools-skeleton/config/modules.config.old" beforeDir="false" afterPath="$PROJECT_DIR$/../api-tools-skeleton/config/modules.config.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-tools-skeleton/config/autoload/zfr_cors.global.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/laminas-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/laminas-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-tools-skeleton/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../api-tools-skeleton/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../api-tools-skeleton/config/modules.config.php" beforeDir="false" afterPath="$PROJECT_DIR$/../api-tools-skeleton/config/modules.config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api-tools-skeleton/module/Category/config/module.config.php" beforeDir="false" afterPath="$PROJECT_DIR$/../api-tools-skeleton/module/Category/config/module.config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +46,23 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,6 +72,8 @@
       <option name="presentableId" value="Default" />
       <updated>1608019320884</updated>
       <workItem from="1608019322059" duration="2094000" />
+      <workItem from="1608034878947" duration="597000" />
+      <workItem from="1608097236165" duration="3564000" />
     </task>
     <servers />
   </component>
@@ -66,5 +90,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

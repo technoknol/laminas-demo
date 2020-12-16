@@ -102,6 +102,7 @@
       <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/webmozart/assert" />
       <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/zfcampus/zf-console" />
       <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/zfcampus/zf-deploy" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/zfr/zfr-cors" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

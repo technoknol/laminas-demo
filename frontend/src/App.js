@@ -12,7 +12,9 @@ class App extends React.Component {
 
     this.state = {
       exampleItems: [],
-      pageOfItems: []
+      pageOfItems: [],
+      total_items: 0,
+      page_size: 10
     };
 
     // bind function in constructor instead of render (https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-bind.md)
@@ -21,13 +23,27 @@ class App extends React.Component {
 
   componentWillMount() {
       axios.get('http://localhost:8080/categories').then(res => {
-
+        console.log('res', res.data)
+        this.setState({
+          exampleItems : res.data._embedded.categories,
+          total_items : res.data.total_items,
+          page_size: res.data.page_size,
+          pageOfItems: res.data._embedded.categories
+        })
       })
   }
 
-  onChangePage(pageOfItems) {
+  onChangePage(page) {
+    axios.get('http://localhost:8080/categories?page='+ page).then(res => {
+      this.setState({
+        // exampleItems : res.data._embedded.categories,
+        // total_items : res.data.total_items,
+        // page_size: res.data.page_size,
+        pageOfItems: res.data._embedded.categories
+      })
+    })
     // update state with new page of items
-    this.setState({ pageOfItems: pageOfItems });
+    // this.setState({ pageOfItems: pageOfItems });
   }
   render() {
 
@@ -51,7 +67,7 @@ class App extends React.Component {
           {this.state.pageOfItems.map(item =>
               <div key={item.id}>{item.name}</div>
           )}
-          <Demo items={this.state.exampleItems} onChangePage={this.onChangePage}/>
+          <Demo items={this.state.exampleItems} total_items={this.state.total_items} onChangePage={this.onChangePage} page_size={this.state.page_size}/>
 
         </div>
     );
