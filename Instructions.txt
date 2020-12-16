@@ -14,4 +14,6 @@
 
 8. Configure database credentials in api-tools-skeleton/config/autoload/local.php file. 
 
-9. 
+9. Here is my github public repo just in case you want to check : https://github.com/technoknol/laminas-demo
+
+10. Screenshots of postman and frontend are in screenshots folder.
