@@ -38,7 +38,7 @@ return [
                 1 => 'POST',
             ],
             'collection_query_whitelist' => [],
-            'page_size' => '2',
+            'page_size' => '10',
             'page_size_param' => 'size',
             'entity_class' => \Category\V1\Rest\Categories\CategoriesEntity::class,
             'collection_class' => \Category\V1\Rest\Categories\CategoriesCollection::class,

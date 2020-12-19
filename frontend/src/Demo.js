@@ -6,11 +6,14 @@ import PropTypes from 'prop-types'
 const propTypes = {
     items: PropTypes.array.isRequired,
     onChangePage: PropTypes.func.isRequired,
-    initialPage: PropTypes.number
+    initialPage: PropTypes.number,
+    total_items: PropTypes.number,
+    page_size: PropTypes.number,
 }
 
 const defaultProps = {
-    initialPage: 1
+    initialPage: 1,
+    total_items: 0
 }
 
 export class Demo extends React.Component {
@@ -24,6 +27,10 @@ export class Demo extends React.Component {
         if (this.props.items && this.props.items.length) {
             this.setPage(this.props.initialPage);
         }
+        // // set page if items array isn't empty
+        // if (this.props.total_items && this.props.total_items > 0) {
+        //     this.setPage(this.props.total_items);
+        // }
     }
 
     componentDidUpdate(prevProps, prevState) {
@@ -34,6 +41,7 @@ export class Demo extends React.Component {
     }
 
     setPage(page) {
+        debugger
         var items = this.props.items;
         var pager = this.state.pager;
 
@@ -43,16 +51,17 @@ export class Demo extends React.Component {
         }
 
         // get new pager object for specified page
-        pager = this.getPager(items.length, page);
+        // pager = this.getPager(items.length, page);
+        pager = this.getPager(this.props.total_items, page, this.props.page_size);
 
         // get new page of items from items array
-        var pageOfItems = items.slice(pager.startIndex, pager.endIndex + 1);
+        // var pageOfItems = items.slice(pager.startIndex, pager.endIndex + 1);
 
         // update state
         this.setState({ pager: pager });
 
         // call change page function in parent component
-        this.props.onChangePage(pageOfItems);
+        this.props.onChangePage(page);
     }
 
     getPager(totalItems, currentPage, pageSize) {
@@ -114,6 +123,7 @@ export class Demo extends React.Component {
         }
 
         return (
+            <>
             <ul className="pagination">
                 <li className={pager.currentPage === 1 ? 'disabled' : ''}>
                     <a onClick={() => this.setPage(1)}>First</a>
@@ -133,6 +143,8 @@ export class Demo extends React.Component {
                     <a onClick={() => this.setPage(pager.totalPages)}>Last</a>
                 </li>
             </ul>
+                {/*<pre>{JSON.stringify(pager, null, ' ')}</pre>*/}
+            </>
         );
     }
 }

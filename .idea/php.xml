@@ -98,6 +98,7 @@
       <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/sebastian/object-reflector" />
       <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/sebastian/object-enumerator" />
       <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/zfr/zfr-cors" />
     </include_path>
   </component>
 </project>

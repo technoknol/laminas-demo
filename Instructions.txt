@@ -1,0 +1,19 @@
+1. api-tools-skeleton is laminas API. No need to install composer packages. 
+
+2. Run API using command `composer serve`
+
+3. frontend is react project with UI integrated with pagination. 
+
+4. run frontend using `npm run start` or `yarn start`
+
+5. api will run on http://localhost:8080, frontend will run on http://localhost:3000 
+
+6. postman file for API's is included in folder. 
+
+7. laminas.sql is a database file. 
+
+8. Configure database credentials in api-tools-skeleton/config/autoload/local.php file. 
+
+9. Here is my github public repo just in case you want to check : https://github.com/technoknol/laminas-demo
+
+10. Screenshots of postman and frontend are in screenshots folder.
