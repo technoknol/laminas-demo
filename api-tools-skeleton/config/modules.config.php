@@ -28,4 +28,5 @@ return [
     'Application',
     'Category',
     'Blog',
+    'TagsAPI',
 ];
