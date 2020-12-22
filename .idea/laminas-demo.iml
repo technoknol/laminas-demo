@@ -76,7 +76,6 @@
       <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/phpunit/php-file-iterator" />
       <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/phpunit/php-text-template" />
       <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/phpunit/php-timer" />
-      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/phpunit/php-token-stream" />
       <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/phpunit/phpunit" />
       <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/psr/container" />
       <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/psr/link" />
@@ -103,6 +102,13 @@
       <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/zfcampus/zf-console" />
       <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/zfcampus/zf-deploy" />
       <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/zfr/zfr-cors" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/brick/varexporter" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/phpunit/php-invoker" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/sebastian/code-unit" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/sebastian/cli-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/sebastian/complexity" />
+      <excludeFolder url="file://$MODULE_DIR$/api-tools-skeleton/vendor/sebastian/lines-of-code" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

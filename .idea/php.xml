@@ -23,7 +23,6 @@
       <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/phpunit/php-text-template" />
       <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/phpunit/php-timer" />
       <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/phpspec/prophecy" />
-      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/phpunit/php-token-stream" />
       <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/phar-io/manifest" />
       <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/myclabs/deep-copy" />
       <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/phar-io/version" />
@@ -99,6 +98,13 @@
       <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/sebastian/object-enumerator" />
       <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/sebastian/environment" />
       <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/zfr/zfr-cors" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/brick/varexporter" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/api-tools-skeleton/vendor/sebastian/lines-of-code" />
     </include_path>
   </component>
 </project>

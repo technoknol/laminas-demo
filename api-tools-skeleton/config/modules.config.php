@@ -30,4 +30,6 @@ return [
     'Category',
     'Blog',
     'TagsAPI',
+    'Customers',
+    'CustomersAPI',
 ];
